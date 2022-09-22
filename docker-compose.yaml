@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:  
+  prueba-runner:
+    image: prueba/contenedor:latest
+    restart: always
+    ports:
+      - "8080:8000"
+    volumes:
+      - ./data:/home/docker/actions-runner/
