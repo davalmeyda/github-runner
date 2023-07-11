@@ -8,4 +8,4 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer \
 
 docker build -t prueba/contenedor .
 
-docker run -d -ti --name backend-san-german -v /home/brufatcompany/backend-san-german:/home/docker/actions-runner inicial:latest
+docker run -d -ti --name instalacion -v /home/laravel:/home/docker/actions-runner khronos92/ojos-celestes-laravel
